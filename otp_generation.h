@@ -1,4 +1,4 @@
-//Program to send OTP for given mobile number.
+//Program to send OTP to mobile number
 
 #include<stdio.h>
 #include<stdlib.h>
@@ -12,7 +12,6 @@ void get_mobile_number();
 void send_otp_to_mobile_number(char*);
 char validate_otp();
 
-void call_function() __attribute__ ((constructor));
 
 int random_number;
 char* mobile_number;
